@@ -1,0 +1,54 @@
+.container{
+    margin : 0 40px;
+}
+body{
+    color:rgb(39, 38, 38)
+}
+h4{
+    color: red;
+    font-weight: 200;
+    font-size:24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+   color: rgb(233, 232, 232,0.3) 
+}
+h5{
+    font-weight: 200;
+}
+.main-header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 200px 700px auto;
+    column-gap: 10px;
+    row-gap:10px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.second-label{
+    font-size:14px;
+    color:gray
+}
+.inp{
+    width: 90%;
+}
+.num-inp{
+    width: 41.5%;
+}
+.heading{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+button[type="submit"]{
+    background-color: rgba(28, 28, 223, 0.774);
+    color:white;
+    padding:10px;
+    border-radius: 5px;
+    margin-left:49%;
+    margin-top: 2%;
+}

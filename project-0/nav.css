@@ -1,0 +1,17 @@
+nav a{
+    color:black;
+    margin: 20px;
+    text-decoration:none;
+}
+body{
+    margin:0px;
+}
+nav{
+    display: flex;
+    flex-flow: row-reverse;
+    background-color: rgba(211, 211, 211, 0.4);
+}
+
+nav a:hover{
+    color: rgb(25, 12, 214)
+}

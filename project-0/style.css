@@ -1,0 +1,44 @@
+.container{
+    text-align:center;
+    margin-top:250px;
+}
+.google-img{
+    height: 100px;
+    width: 300px;
+}
+.search{
+    width:640px;
+    margin: 0 auto;
+    border:1px solid gray;
+    border-radius: 25px;
+}
+.search-bar{
+    width: 550px;
+    padding-top:20px; 
+    font-size:18px;
+    border:none;
+    padding-top: 15px;
+    margin-bottom:10px;
+}
+.search-icon{
+    position: relative;
+    height: 15px;
+    margin-top:10px;
+    width: 15px;
+    margin-left:-40px; 
+}
+.btn-container{
+    margin-top:2%;
+}
+
+.search-btn{
+    height: 40px;
+    border:none;
+    color: #646464;
+    background: #f2f2f2;
+}
+
+.search-btn:hover{
+    color:rgb(37, 37, 37);
+    border:1px solid lightgray;
+}
